@@ -1,0 +1,160 @@
+/** Extra Large Device **/
+@media (max-width: 1399px) {
+  .page-content {
+    height: 80vh;
+  }
+  /** Imoji Icons **/
+  .page-content .imoji img {
+    width: 250px;
+    height: 250px;
+  }
+  .page-content .warning img {
+    width: 250px;
+    height: 250px;
+  }
+  /** Trees **/
+  .page-content .left-trees .left-parent-tree {
+    width: 400px;
+    height: 400px;
+  }
+  .page-content .double-trees {
+    width: 100px;
+    height: 100px;
+    bottom: -8px;
+  }
+  .page-content .right-trees .right-parent-tree {
+    width: 400px;
+    height: 400px;
+  }
+  .page-content .right-trees .right-child-tree {
+    width: 100px;
+    height: 100px;
+    bottom: -11px;
+  }
+}
+
+/** Large Device **/
+@media (max-width: 1199px) {
+  .page-content {
+    height: 70vh;
+  }
+  .page-content p {
+    font-size: 1em;
+  }
+  /** Imoji icons **/
+  .page-content .imoji img {
+    width: 200px;
+    height: 200px;
+  }
+  .page-content .warning img {
+    width: 200px;
+    height: 200px;
+  }
+  /** Trees **/
+  .page-content .left-trees .left-parent-tree {
+    width: 300px;
+    height: 300px;
+  }
+  .page-content .double-trees {
+    width: 100px;
+    height: 100px;
+    bottom: -8px;
+  }
+  .page-content .right-trees .right-parent-tree {
+    width: 300px;
+    height: 300px;
+  }
+  .page-content .right-trees .right-child-tree {
+    width: 100px;
+    height: 100px;
+    bottom: -11px;
+  }
+  .page-content .btns a {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+}
+
+/** Mediam Device **/
+@media (max-width: 991px) {
+  .page-content {
+    height: 70vh;
+  }
+  .page-content h4 {
+    font-size: 1.5em;
+  }
+  .page-content .btns a {
+    font-size: 12px;
+    padding: 7px 13px;
+  }
+  .btns .home {
+    margin-right: 0px !important;
+  }
+  /** Imoji Icons **/
+  .page-content .imoji img {
+    width: 150px;
+    height: 150px;
+  }
+  .page-content .warning img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/** Small Device **/
+@media (max-width: 767px) {
+  .page-content {
+    height: 60vh;
+  }
+  /** Imoji Icons **/
+  .page-content .imoji img {
+    width: 100px;
+    height: 100px;
+  }
+  .page-content .warning img {
+    width: 100px;
+    height: 100px;
+  }
+  /** Trees **/
+  .page-content .left-trees .left-parent-tree {
+    width: 200px;
+    height: 200px;
+  }
+  .page-content .double-trees {
+    width: 50px;
+    height: 50px;
+    bottom: -4px;
+  }
+  .page-content .right-trees .right-parent-tree {
+    width: 200px;
+    height: 200px;
+  }
+  .page-content .right-trees .right-child-tree {
+    width: 50px;
+    height: 50px;
+    bottom: -5px;
+  }
+}
+
+/** Extra Small Device **/
+@media (max-width: 575px) {
+  .page-content {
+    height: 50vh;
+    position: relative;
+  }
+  .trees {
+    display: none;
+  }
+  .btns a {
+    display: block !important;
+    border-radius: 0px !important;
+  }
+  .btns .home {
+    margin-bottom: 10px !important;
+  }
+  .btns .contact {
+    background: #69a6ce;
+    color: #fff !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
